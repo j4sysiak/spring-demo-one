@@ -17,9 +17,11 @@
 	-->       
 	                  
     <bean id="myLoggerConfig" class="pl.jaceksysiak.springdemo.MyLoggerConfig" init-method="initLogger">
-    	<property name="rootLoggerLevel" value="FINE" />
-    	<property name="printedLoggerLevel" value="FINE"/>
+    	<property name="rootLoggerLevel" value="INFO" />
+    	<property name="printedLoggerLevel" value="INFO"/>
     </bean>
+    
+    
     
     <!--                        Define your beans here                     -->
     
